@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Introduction */
+
+.title {
+    position: relative;
+    /* min-height: 100vh; */
+    padding-top: 100px;
+    background-color: #161616;
+    /* background-size: cover;
+    background-position: right;
+    display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.title h2 {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.title h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/* Button */
+
+.btn {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.cyan {
+    background: #3dcfd3;
+}
+
+.black {
+    background: #161616;
+}
+
+.cyan:hover {
+    background: transparent;
+    border-color: #3dcfd3;
+    color: #3dcfd3;
+}
+
+.black:hover {
+    background: transparent;
+    border-color: #161616;
+    color: #161616;
+}
+
+
+/* Header-Section */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: -webkit-fill-available;
+}
+
+header h2 {
+    color: #3dcfd3;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul {
+    position: relative;
+    /* left: 40rem; */
+    top: 5px;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #3dcfd3;
+}
+
+
+/* AboutMe-Section */
+
+.about-me {
+    padding: 50px 100px 100px;
+}
+
+.about-me h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content {
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.content li {
+    font-weight: 300;
+}
+
+
+/* Contact-Section */
+
+.bottom-container {
+    background-color: #161616;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 1rem;
+    padding-top: 20px 0;
+}
+
+.footer-icon {
+    margin: 20px 35px 30px;
+}
+
+.footer-icon:hover {
+    color: #3dcfd3;
+}
